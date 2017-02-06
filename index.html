@@ -2,18 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>L-Visa</title>
 </head>
 <body>
-  <div id="content-wrapper">
-    <header class="content-block" id="block-main">
+  <div id="content-wrapper" class="container">
+    <header class="content-block full-width-bg" id="block-main">
         <div id="main-logo">L-VISA</div>
         <div class="contacts">
           <span>+38 050 059 55 30</span><br>
           <span>+38 095 184 80 76</span>
         </div>
-        <nav class="menu">
+        <nav id="menu" class="full-width-bg">
           <a href="#block-main">Главная</a>
           <a href="#block-poland">Рабочая виза в Польшу</a>
           <a href="#block-lithuania">Шенген Литва</a>
@@ -21,35 +23,75 @@
           <a href="#block-insurance">Страховка</a>
           <a href="#block-whyus">Почему мы</a>
         </nav>
+        <div id="slider"></div>
     </header>
 
-    <div class="content-block" id="block-poland">
+    <div class="content-block full-width-bg" id="block-poland">
       <h2>Рабочая виза в Польшу</h2>
+      <div class="row line-block">
+        <div class="col-md-4">180 / 360</div>
+        <div class="col-md-4">2500 грн. *</div>
+        <div class="col-md-4">14 дней</div>
+      </div>
+
+      <div class="row line-block">
+        <div class="col-md-4">360 / 360</div>
+        <div class="col-md-4">300$ *</div>
+        <div class="col-md-4">40 дней</div>
+      </div>
+      <div class="tip-bottom">* хуйня про сервисный сбор</div>
     </div> <!-- #block-poland -->
 
-    <div class="content-block" id="block-lithuania">
+    <div class="content-block full-width-bg" id="block-lithuania">
       <h2>Шенген Литва</h2>
-      <div class="half-block">
-        <h3>Комфорт</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col-md-6">
+        <div class="propose">
+          <div class="propose-img"></div>
+          <h3>Комфорт</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div> <!-- .propose -->
       </div>
-      <div class="half-block">
-        <h3>Гарант</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col-md-6">
+        <div class="propose">
+          <div class="propose-img"></div>
+          <h3>Гарант</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div> <!-- .propose -->
       </div>
     </div> <!-- #block-lituania -->
 
-    <div class="content-block" id="block-passport">
+    <div class="content-block full-width-bg" id="block-passport">
       <h2>Паспорта</h2>
+      <div class="row line-block">
+        <div class="col-md-4">Обычный</div>
+        <div class="col-md-4">21 день</div>
+        <div class="col-md-4">1000 грн.</div>
+      </div>
+
+      <div class="row line-block">
+        <div class="col-md-4">Срочный</div>
+        <div class="col-md-4">10 дней</div>
+        <div class="col-md-4">1500 грн.</div>
+      </div>
     </div> <!-- #block-passport -->
 
-    <div class="content-block" id="block-insurance">
-      <h2>Страховка</h2>
+    <div class="content-block full-width-bg" id="block-insurance">
+      <h2>Страховой полис</h2>
+      <div class="row line-block">
+        <div class="col-md-8">90 дней</div>
+        <div class="col-md-4">180 грн.</div>
+      </div>
+
+      <div class="row line-block">
+        <div class="col-md-8">180 дней</div>
+        <div class="col-md-4">250 грн.</div>
+      </div>
     </div> <!-- #block-insurance -->
 
-    <footer class="content-block" id="block-whyus">
+    <div class="content-block full-width-bg" id="block-whyus">
       <h2>Почему мы</h2>
-    </footer>
+      <footer class="full-width-bg">(c) Mudrakula 2017</footer>
+    </div>
 
   </div> <!-- #content-wrapper -->
 </body>
