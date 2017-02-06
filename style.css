@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#content-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.content-block {
+  height: 100vh;
+  position: relative;
+}
+
+.content-block h2 {
+  text-align: center;
+}
+
+.content-block::before {
+  background: #ccc;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150vw;
+  left: -50vw;
+  height: 100%;
+  z-index: -1;
+}
+
+.content-block:nth-child(odd)::before {
+  background: #eee;
+}
+
+/* HEADER */
+#main-logo {
+  border: 3px dashed #ccc;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}
+
+#block-main .contacts {
+  float: right;
+}
+
+/* LITUANIA */
+.half-block {
+  background: #999;
+  display: inline-block;
+  width: 50%;
+}
