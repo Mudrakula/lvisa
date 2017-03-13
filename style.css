@@ -8,12 +8,39 @@ body {
 }
 
 .screen:nth-child(odd) {
-  background: #ccc;
+  background: #2ea657;
+  color: #fff;
+}
+
+.screen h2 {
+  margin: 100px 0 40px;
+  text-align: center;
+}
+
+#top-btn {
+  background: #205331;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  left: 50px;
+  top: 50vh;
+  transition: background .2s ease-in-out;
+}
+
+#top-btn:hover {
+  background: #777;
 }
 
 /* Header */
 header {
   background: #fff;
+  color: #333;
   height: 30%;
   position: relative;
   padding-bottom: 40px;
@@ -43,7 +70,7 @@ header {
 
 /* Menu */
 #main-menu {
-  background: #999;
+  background: #2ea657;
   padding: 0 100px;
   text-align: right;
   width: 100%;
@@ -57,11 +84,12 @@ header {
   color: #fff;
   display: inline-block;
   padding: 10px 15px;
+  margin-left: -4px;
   transition: background .2s ease-in-out;
 }
 
 #main-menu a:hover {
-  background: #666;
+  background: #205331;
   text-decoration: none;
 }
 
@@ -76,13 +104,41 @@ header {
   height: auto;
 }
 
+/* Poland */
+#poland-screen h2 {
+  margin-bottom: 15vh;
+}
+
+.poland-block {
+  font-size: 30px;
+  margin-bottom: 25vh;
+}
+
+/* Lithuania */
+.lithuania-block {
+  padding: 20px 150px;
+}
+
+.lithuania-image {
+  background: url(http://placehold.it/130x130);
+  border: 10px solid #205331;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+}
+
+.lithuania-block h3 {
+  margin-bottom: 20px;
+}
+
 /* Footer */
 #bottom-screen {
   padding-bottom: 50px;
 }
 
 footer {
-  background: #666;
+  background: #2ea657;
   color: #fff;
   padding: 10px 0;
   width: 100%;
