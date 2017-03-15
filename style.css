@@ -142,6 +142,20 @@ header {
   margin-bottom: 25vh;
 }
 
+.poland-image {
+  border: 7px solid #205331;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.poland-image img {
+  width: 100%;
+  height: 100%;
+}
+
 .additional-cost {
   width: 50%;
   margin: 0 auto;
@@ -153,25 +167,30 @@ header {
 }
 
 .lithuania-image {
-  background: url(http://placehold.it/130x130);
   border: 10px solid #205331;
   border-radius: 50%;
   width: 150px;
   height: 150px;
   margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+.lithuania-image img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Passports */
-#passports-screen {
-  background: url(passport.jpg) center no-repeat;
-}
-
 #passports-screen .cost {
   font-size: 24px;
 }
 
+#passports-screen h4 {
+  margin: 10vh 0 5vh;
+}
+
 .required-docs {
-  margin-top: 35vh;
+  margin-top: 5vh;
 }
 
 .doc-icon {
