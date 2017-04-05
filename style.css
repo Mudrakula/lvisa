@@ -14,12 +14,13 @@ body {
 }
 
 h2 {
-  margin: 8vh 0 6vh;
+  margin: 45px 0 25px;
   text-align: center;
+  clear: both;
 }
 
 h3 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
@@ -186,17 +187,13 @@ header {
 }
 
 #passports-screen h4 {
-  margin: 10vh 0 5vh;
-}
-
-.required-docs {
-  margin-top: 5vh;
+  margin: 100px 0 40px;
+  clear: both;
 }
 
 .doc-icon {
-  background: url(http://placehold.it/90x90);
-  border: 5px solid #205331;
   border-radius: 50%;
+  display: block;
   width: 100px;
   height: 100px;
   margin: 0 auto 20px;
@@ -205,6 +202,22 @@ header {
 /* Footer */
 #bottom-screen {
   padding-bottom: 50px;
+}
+
+#bottom-screen h2 {
+  margin-bottom: 80px;
+}
+
+.why-us-block {
+  padding: 0 40px 0 200px;
+  margin-bottom: 70px;
+}
+
+.why-us-block img {
+  height: 80px;
+  width: auto;
+  position: absolute;
+  left: 60px;
 }
 
 footer {
