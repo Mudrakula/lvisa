@@ -60,7 +60,7 @@ h4 {
 }
 
 #top-btn {
-  background: #205331;
+  background: #019b83;
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
@@ -75,6 +75,7 @@ h4 {
   left: 15px;
   top: 50vh;
   transition: opacity .2s ease-in-out;
+  z-index: 100;
 }
 
 #top-btn:hover {
@@ -183,7 +184,7 @@ header {
 }
 
 .poland-image {
-  border: 7px solid #019b83;
+  border: 5px solid rgba(1, 155, 131, .5);
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -209,7 +210,6 @@ header {
 .job-tile {
   background: left top no-repeat;
   background-size: cover;
-  /*border: 1px solid #fff;*/
   color: #fff;
   text-align: center;
   height: 200px;
@@ -279,16 +279,33 @@ header {
   z-index: 1;
 }
 
+.jobs-footer .fa,
+.why-us-block .fa {
+  color: #019b83;
+  display: block;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
 /* Lithuania */
+#lithuania-screen {
+  background: url(images/lithuania.jpg) top left no-repeat;
+  background-size: cover;
+  border: 1px solid #000;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+}
+
 .lithuania-block {
   padding: 20px;
 }
 
 .lithuania-image {
-  border: 10px solid rgb(1, 121, 103);
+  border: 5px solid rgba(1, 155, 131, .3);
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto 20px;
   overflow: hidden;
 }
@@ -308,6 +325,10 @@ header {
   clear: both;
 }
 
+.passport-img img {
+  height: 150px;
+}
+
 .doc-icon {
   border-radius: 50%;
   display: block;
@@ -321,20 +342,60 @@ header {
   padding-bottom: 50px;
 }
 
-#bottom-screen h2 {
-  margin-bottom: 80px;
+#bottom-screen h2::after {
+  margin: 20px auto;
+  width: 10vw;
 }
 
-.why-us-block {
-  padding: 0 40px 0 200px;
-  margin-bottom: 70px;
+#bottom-screen h2:first-of-type {
+  background: #019b83;
+  color: #fff;
+  padding: 20px;
 }
 
-.why-us-block img {
-  height: 80px;
-  width: auto;
+.why-us {
+  margin-bottom: 60px;
+}
+
+.clients {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.clients-slider {
+  height: 200px;
+  width: 200vw;
   position: absolute;
-  left: 60px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: left .9s linear;
+}
+
+.client-slider-arrow {
+  background: #000;
+  font-size: 30px;
+  text-align: center;
+  line-height: 200px;
+  opacity: .4;
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.client-slider-arrow:last-of-type {
+  position: absolute;
+  left: auto;
+  right: 0;
+}
+
+.clients img {
+  height: 200px;
+  float: left;
 }
 
 footer {

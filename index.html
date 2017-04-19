@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>L-Visa</title>
 </head>
@@ -21,10 +22,11 @@
           <div>+38 095 184 80 76</div>
         </div> <!-- .contacts -->
         <nav id="main-menu">
+          <a href="#jobs-screen">Вакансии</a>
           <a href="#poland-screen">Польша</a>
-          <a href="#lithuania-screen">Литва</a>
           <a href="#passports-screen">Загранпаспорта</a>
-          <a href="#bottom-screen">Футер</a>
+          <a href="#lithuania-screen">Литва</a>
+          <a href="#bottom-screen">О нас</a>
         </nav> <!-- #main-menu -->
       </header>
       <div id="slider">
@@ -108,11 +110,18 @@
           </div>
         </div>
       </div> <!-- job-tiles -->
-      <div class="clearfix">
-        <div class="col-md-4">Более 100 вакансий на территории Польши и Литвы</div>
-        <div class="col-md-4">Еженедельные обновления базы данных</div>
-        <div class="col-md-4">
-          <strong>Не нашли желаемой вакансии? Позвоните нам!</strong>
+      <div class="clearfix jobs-footer">
+        <div class="col-md-4 text-center">
+          <div class="fa fa-briefcase"></div>
+          Более 100 вакансий на территории Польши и Литвы
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="fa fa-refresh"></div>
+          Еженедельные обновления базы данных
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="fa fa-question-circle"></div>
+          Не нашли желаемой вакансии? <strong>Позвоните нам!</strong>
         </div>
       </div>
     </div> <!-- #jobs-screen -->
@@ -178,7 +187,7 @@
 
     <div class="screen row" id="passports-screen">
       <div class="col-md-6">
-        <h2>Офромление загранпаспорта</h2>
+        <h2>Оформление загранпаспорта</h2>
         <div class="list text-center bottom-separator">
           <div class="list-item">
             Оформление за 22 дня - <span class="cost">1200 грн.</span>
@@ -194,7 +203,7 @@
       </div>
 
       <div class="col-md-6">
-        <h2>Офромление страхового полиса</h2>
+        <h2>Оформление страхового полиса</h2>
         <div class="list text-center bottom-separator">
           <div class="list-item">
             180 / 360 дней - <span class="cost">250 грн.</span>
@@ -205,15 +214,15 @@
         </div>
 
         <div class="passport-img text-center">
-          <img src="images/passport.jpg">
+          <img src="images/insurance.jpg">
         </div>
       </div>
 
       <div id="required-docs" class="col-md-12">
-        <h4 class="text-center">Необходимые одкументы</h4>
+        <h4 class="text-center">Необходимые документы</h4>
         <div class="required-doc col-md-4 text-center">
           <img src="images/ua-passport-icon.png" class="doc-icon">
-          Украиский паспорт
+          Украинский паспорт
         </div>
         <div class="required-doc col-md-4 text-center">
           <img src="images/passports-icon.png" class="doc-icon">
@@ -226,7 +235,7 @@
       </div> <!-- #require-docs -->
     </div>
 
-    <div class="screen row green" id="lithuania-screen">
+    <div class="screen row darker" id="lithuania-screen">
       <h2>Шенген Литва</h2>
       <div class="col-md-4">
         <div class="lithuania-block text-center">
@@ -280,25 +289,35 @@
 
     <div class="screen row" id="bottom-screen">
       <h2>Почему мы?</h2>
-      <div class="clearfix">
-        <div class="col-md-6 why-us-block">
-          <img src="images/icon1.png">
-          <div>Компания L-visa работает не только в г. Запорожье , но и дистанционно. Даже если Вы находитесь в другом городе нашей страны, то это не проблема. Можно выслать нам всю Вашу информацию и документы в электронном виде. Все документы мы высылаем в любую точку, где бы Вы не находились.</div>
-        </div> <!-- .why-us-block -->
-        <div class="col-md-6 why-us-block">
-          <img src="images/icon2.png">
-          <div>Наши специалисты - это молодой и профессиональный коллектив. Опыт полученный за рубежом помогает нам справляться даже в тяжелых ситуациях. Мы работаем с клиентами после отказов и готовим все документы по требуемым стандартам посольства.</div>
-        </div> <!-- .why-us-block -->
+      <div class="clearfix why-us">
+        <div class="col-md-4 text-center why-us-block">
+          <div class="fa fa-globe"></div>
+          Работаем с клиентами по всей Украине
+        </div>
+        <div class="col-md-4 text-center why-us-block">
+          <div class="fa fa-check-circle-o"></div>
+          Официальные приглашения от прямых работодателей
+        </div>
+        <div class="col-md-4 text-center why-us-block">
+          <div class="fa fa-clock-o"></div>
+          Гарантия результата и оперативная работа
+        </div>
       </div>
-      <div class="clearfix">
-        <div class="col-md-6 why-us-block">
-          <img src="images/icon3.png">
-          <div>Наша команда специалистов ориентирована на результат, не все могут дать Вам гарантию на рынке визовой поддержки, но это в наших силах. В случае обращения к нам Вы можете быть уверенны в конечном положительном результате.</div>
-        </div> <!-- .why-us-block -->
-        <div class="col-md-6 why-us-block">
-          <img src="images/icon4.png">
-          <div>Мы работаем очень оперативно и пускаем документы в работу сразу, поэтому наши клиенты всегда получают визы в кратчайшие сроки.</div>
-        </div> <!-- .why-us-block -->
+      <h2 class="bottom-separator">Наши клиенты</h2>
+      <div class="clients">
+        <div class="client-slider-arrow" data-direction="-1">&larr;</div>
+        <div class="clearfix clients-slider">
+          <img src="images/client1.jpg">
+          <img src="images/client2.jpg">
+          <img src="images/client3.jpg">
+          <img src="images/client4.jpg">
+          <img src="images/client5.jpg">
+          <img src="images/client6.jpg">
+          <img src="images/client7.jpg">
+          <img src="images/client8.jpg">
+          <img src="images/client9.jpg">
+        </div>
+        <div class="client-slider-arrow" data-direction="1">&rarr;</div>
       </div>
       <footer>(c) Mudrakula</footer>
     </div>
